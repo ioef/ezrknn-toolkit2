@@ -13,7 +13,6 @@ if [ "$EUID" -ne 0 ]; then
   echo "Please run this script as root!"
   exit
 fi
-echo
 
 echo
 echo "#########################################"
@@ -34,12 +33,19 @@ cd EZRKNN-Toolkit2/
 
 echo
 echo "#########################################"
-echo "Installing pip dependencies..."
+echo "Installing pip dependencies for ARM64..."
 echo "#########################################"
 echo
 
+pip install ./rknn-toolkit-lite2/packages/rknn_toolkit_lite2-2.0.0b0-cp311-cp311-linux_aarch64.whl
+pip install -r ./rknn-toolkit2/packages/requirements_cp311-2.0.0b0.txt
+
 echo
 echo "#########################################"
-echo "Installing RKNN NPU server and API..."
+echo "Installing RKNN NPU API..."
 echo "#########################################"
 echo
+
+cp ./rknpu2/runtime/Linux/librknn_api/aarch64/librknnrt.so /usr/lib/
+# TODO: Check if it should be copied to /usr/include instead
+cp ./rknpu2/runtime/Linux/librknn_api/include/* /usr/local/include
