@@ -20,7 +20,8 @@ echo "Installing apt dependencies..."
 echo "#########################################"
 echo
 
-sudo apt install -y git python-is-python3 python3-pip libxslt1-dev zlib1g-dev libglib2.0-dev libsm6 libgl1-mesa-glx libprotobuf-dev build-essential adb
+sudo apt install -y git python-is-python3 python3-pip libxslt1-dev zlib1g-dev libglib2.0-dev libsm6 libgl1-mesa-glx libprotobuf-dev build-essential
+# sudo apt install -y adb # For running the NPU in Android
 
 echo
 echo "#########################################"
@@ -49,3 +50,11 @@ echo
 cp ./rknpu2/runtime/Linux/librknn_api/aarch64/librknnrt.so /usr/lib/
 # TODO: Check if it should be copied to /usr/include instead
 cp ./rknpu2/runtime/Linux/librknn_api/include/* /usr/local/include
+
+echo
+echo "#########################################"
+echo "Compiling RKNN Benchmark..."
+echo "#########################################"
+echo
+
+# TOOD: Compile RKNN Benchmark
