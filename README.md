@@ -21,7 +21,12 @@ Keep in mind this is focused for:
 - This link explains the main capabilities of RKNN Toolkit 2: https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html#rknn-toolkit2
 - Some basic but well explained info for Radxa devices: https://docs.radxa.com/en/rock5/rock5b/low-level-dev/rknn-toolkit2  
 
-# Original README starts here
+# Original README starts below
+
+<hr>
+<hr>
+<hr>
+
 # Description
   RKNN software stack can help users to quickly deploy AI models to Rockchip chips. The overall framework is as follows:
     <center class="half">
