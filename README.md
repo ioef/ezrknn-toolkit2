@@ -1,16 +1,16 @@
 # EZ RKNN Toolkit 2
-This repo tries to make RKNN Toolkit 2 install easier and more organised. RKNN Toolkit is the software used for testing and using the NPU inside Rockchip's chips like the RK3588 found in the Orange Pi 5 and Radxa Rock 5
+This repo tries to make RKNN Toolkit 2 install easier and more organised. RKNN Toolkit is the software used for testing and using the NPU inside Rockchip's chips like the RK3588 found in the Orange Pi 5 and Radxa Rock 5.
+This repo installs easily the utilities for running AI with the NPU on the boards, it does not install the Android utilities, simulator, server... 
 
 ## Quick Install
 Run:
 
 ```bash
-git clone https://github.com/Pelochus/EZRKNN-Toolkit2.git
-cd EZRKNN-Toolkit2/
-bash quick-install.sh
+curl https://raw.githubusercontent.com/Pelochus/EZRKNN-Toolkit2/master/quick-install.sh | sudo bash
 ```
 
 Keep in mind this is focused for:
+- Only installing what's needed for Linux and running on the SBCs, not the simulator, server and other tools.
 - ARM64 devices.
 - You are running either Debian 11 or Ubuntu 22.04 or later versions. Derivatives should possibly work fine too.
 - Possibly will work better on not heavily modified OS installations (i.e. not using an older Python version or too recent)
