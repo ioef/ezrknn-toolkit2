@@ -54,8 +54,8 @@ cp ./rknpu2/runtime/Linux/librknn_api/include/* /usr/local/include
 
 echo
 echo "#########################################"
-echo "Compiling RKNN Benchmark..."
+echo "Compiling RKNN Benchmark for RK3588..."
 echo "#########################################"
 echo
 
-# TOOD: Compile RKNN Benchmark
+bash ./rknpu/examples/rknn_benchmark/build-linux.sh -a aarch64 -b Release -t rk3588
