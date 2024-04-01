@@ -58,4 +58,4 @@ echo "Compiling RKNN Benchmark for RK3588..."
 echo "#########################################"
 echo
 
-bash ./rknpu/examples/rknn_benchmark/build-linux.sh -a aarch64 -b Release -t rk3588
+bash ./rknpu2/examples/rknn_benchmark/build-linux.sh -a aarch64 -b Release -t rk3588
