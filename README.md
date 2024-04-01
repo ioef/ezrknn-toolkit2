@@ -8,6 +8,7 @@ Keep in mind this repo is focused for:
 - ARM64 devices, focusing mainly on RK3588, but it should work on other RK SoCs.
 - You are running either Debian 11 or Ubuntu 22.04 or later versions. Derivatives should possibly work fine too.
 - Possibly will work better on not heavily modified OS installations (i.e. not using an older Python version or too recent)
+- Unrelated, but could be useful for other AI applications: https://www.roselladb.com/install-opencl-orangepi5-debian-ubuntu.htm
 
 ## Quick Install
 Run:
