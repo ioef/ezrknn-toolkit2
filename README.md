@@ -21,7 +21,12 @@ curl https://raw.githubusercontent.com/Pelochus/EZRKNN-Toolkit2/master/quick-ins
 - Lots of info here, but not very well organised: https://github.com/airockchip/rknn-toolkit2/tree/master
 - Example of CV and developing. I extracted some commands for installing: https://github.com/Qengineering/YoloV5-NPU-Rock-5
 - This link explains the main capabilities of RKNN Toolkit 2: https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html#rknn-toolkit2
-- Some basic but well explained info for Radxa devices: https://docs.radxa.com/en/rock5/rock5b/low-level-dev/rknn-toolkit2  
+- Some basic but well explained info for Radxa devices: https://docs.radxa.com/en/rock5/rock5b/low-level-dev/rknn-toolkit2
+
+## TODO
+- Make new repo structure:
+  - New repo which contain 2 submodules: this repo and rk-llm
+  - If so, simplify this repo (documentation, just one script and the rest shall only be minor modifications (like the CMakeLists.txt one in rknn-bench)
 
 # Original README starts below
 
