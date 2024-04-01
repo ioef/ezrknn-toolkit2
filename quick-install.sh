@@ -30,8 +30,8 @@ echo "Cloning repository..."
 echo "#########################################"
 echo
 
-git clone https://github.com/Pelochus/EZRKNN-Toolkit2.git
-cd EZRKNN-Toolkit2/
+git clone https://github.com/Pelochus/ezrknn-toolkit2.git
+cd ezrknn-toolkit2/
 
 echo
 echo "#########################################"
