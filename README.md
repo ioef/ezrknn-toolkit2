@@ -17,6 +17,38 @@ Run:
 curl https://raw.githubusercontent.com/Pelochus/ezrknn-toolkit2/master/quick-install.sh | sudo bash
 ```
 
+## Test
+Run (cd is required):
+
+```bash
+cd rknn-toolkit-lite2/examples/resnet18
+python3 test.py
+```
+
+It should output this:
+
+```
+--> Load RKNN model
+done
+--> Init runtime environment
+I RKNN: [21:37:24.622] RKNN Runtime Information, librknnrt version: 2.0.0b0 (35a6907d79@2024-03-24T10:31:14)
+I RKNN: [21:37:24.622] RKNN Driver Information, version: 0.9.5
+I RKNN: [21:37:24.623] RKNN Model Information, version: 6, toolkit version: 2.0.0b0+9bab5682(compiler version: 2.0.0b0 (35a6907d79@2024-03-24T02:34:11)), target: RKNPU v2, target platform: rk3588, framework name: PyTorch, framework layout: NCHW, model inference type: static_shape
+done
+--> Running model
+resnet18
+-----TOP 5-----
+[812] score:0.999680 class:"space shuttle"
+[404] score:0.000249 class:"airliner"
+[657] score:0.000013 class:"missile"
+[466] score:0.000009 class:"bullet train, bullet"
+[895] score:0.000008 class:"warplane, military plane"
+
+done
+```
+
+Currently, I'm not sure if this uses the NPU. Check this issue to help me verify it: https://github.com/Pelochus/ezrknn-toolkit2/issues/1
+
 ## References
 - Lots of info here, but not very well organised: https://github.com/airockchip/rknn-toolkit2/tree/master
 - Example of CV and developing. I extracted some commands for installing: https://github.com/Qengineering/YoloV5-NPU-Rock-5
