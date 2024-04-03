@@ -47,9 +47,10 @@ resnet18
 done
 ```
 
-This doesn't use the NPU. Check this issue to actually test NPU usage: https://github.com/Pelochus/ezrknn-toolkit2/issues/1
+This doesn't use the NPU. Check this issue to actually test NPU usage: https://github.com/Pelochus/ezrknn-toolkit2/issues/2
 
 ## References
+- Dedicated subreddit: https://www.reddit.com/r/RockchipNPU/
 - Lots of info here, but not very well organised: https://github.com/airockchip/rknn-toolkit2/tree/master
 - Example of CV and developing. I extracted some commands for installing: https://github.com/Qengineering/YoloV5-NPU-Rock-5
 - This link explains the main capabilities of RKNN Toolkit 2: https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html#rknn-toolkit2
