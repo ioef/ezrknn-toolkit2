@@ -47,7 +47,7 @@ resnet18
 done
 ```
 
-Currently, I'm not sure if this uses the NPU. Check this issue to help me verify it: https://github.com/Pelochus/ezrknn-toolkit2/issues/1
+This doesn't use the NPU. Check this issue to actually test NPU usage: https://github.com/Pelochus/ezrknn-toolkit2/issues/1
 
 ## References
 - Lots of info here, but not very well organised: https://github.com/airockchip/rknn-toolkit2/tree/master
