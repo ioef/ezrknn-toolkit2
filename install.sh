@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Made by Pelochus
-# Check for more info: https://github.com/Pelochus/EZRKNN-Toolkit2/
+# Check for more info: https://github.com/Pelochus/ezrknn-toolkit2/
 
 echo
 echo "#########################################"
@@ -59,3 +59,9 @@ echo "#########################################"
 echo
 
 bash ./rknpu2/examples/rknn_benchmark/build-linux.sh -a aarch64 -b Release -t rk3588
+
+echo
+echo "#########################################"
+echo "Done!"
+echo "#########################################"
+echo
