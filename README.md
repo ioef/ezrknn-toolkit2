@@ -14,7 +14,7 @@ Keep in mind this repo is focused for:
 Run:
 
 ```bash
-curl https://raw.githubusercontent.com/Pelochus/ezrknn-toolkit2/master/quick-install.sh | sudo bash
+curl https://raw.githubusercontent.com/Pelochus/ezrknn-toolkit2/master/install.sh | sudo bash
 ```
 
 ## Test
