@@ -7,7 +7,7 @@
 CLEAR=""
 
 # Parameters check
-if [ $1 == '-h' ]
+if [ $1 -eq '-h' ]
 then
     echo
     echo "ntop Help"
@@ -18,7 +18,7 @@ then
     echo "For more information visit https://github.com/Pelochus/ezrknn-toolkit2"
     echo
     exit 
-elif [ $1 == '-c' ]
+elif [ $1 -eq '-c' ]
 then
     CLEAR="clear"
 fi
