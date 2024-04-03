@@ -6,9 +6,11 @@
 $CLEAR
 
 # Parameters check
-if [ $1 -eq "-h" ]; then
+if [ $1 == '-h' ]
+then
     # TODO: Help menu
-elif [ $1 -eq "-c" ]; then
+elif [ $1 == '-c' ]
+then
     $CLEAR=clear
 fi
 
