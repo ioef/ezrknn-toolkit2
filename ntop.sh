@@ -8,7 +8,15 @@ $CLEAR
 # Parameters check
 if [ $1 == '-h' ]
 then
-    # TODO: Help menu
+    echo
+    echo "ntop Help"
+    echo
+    echo "-c: Clears output every refresh"
+    echo "-h: Shows this help screen"
+    echo 
+    echo "For more information visit https://github.com/Pelochus/ezrknn-toolkit2"
+    echo
+    exit 
 elif [ $1 == '-c' ]
 then
     $CLEAR=clear
