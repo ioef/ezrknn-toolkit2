@@ -8,7 +8,6 @@ Keep in mind this repo is focused for:
 - ARM64 devices, focusing mainly on RK3588, but it should work on other RK SoCs.
 - You are running either Debian 11 or Ubuntu 22.04 or later versions. Derivatives should possibly work fine too.
 - Possibly will work better on not heavily modified OS installations (i.e. not using an older Python version or too recent)
-- Unrelated, but could be useful for other AI applications: https://www.roselladb.com/install-opencl-orangepi5-debian-ubuntu.htm
 
 ## Quick Install
 Run:
@@ -55,6 +54,7 @@ This doesn't use the NPU. Check this issue to actually test NPU usage: https://g
 - Example of CV and developing. I extracted some commands for installing: https://github.com/Qengineering/YoloV5-NPU-Rock-5
 - This link explains the main capabilities of RKNN Toolkit 2: https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html#rknn-toolkit2
 - Some basic but well explained info for Radxa devices: https://docs.radxa.com/en/rock5/rock5b/low-level-dev/rknn-toolkit2
+- Unrelated, but could be useful for other AI applications: https://www.roselladb.com/install-opencl-orangepi5-debian-ubuntu.htm
 
 ## TODO
 - Make new repo structure:
