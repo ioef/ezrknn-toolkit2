@@ -12,10 +12,16 @@ Keep in mind this repo is focused for:
 - Possibly will work better on not heavily modified OS installations (i.e. not using an older Python version or too recent)
 
 ## Quick Install
-Run:
+First clone the repo:
 
 ```bash
-curl https://raw.githubusercontent.com/Pelochus/ezrknn-toolkit2/master/install.sh | sudo bash
+git clone https://github.com/Pelochus/ezrknn-toolkit2
+```
+
+Then run:
+
+```bash
+cd ezrknn-toolkit2 && bash install.sh
 ```
 
 ## Test
