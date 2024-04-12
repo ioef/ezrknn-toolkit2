@@ -18,12 +18,6 @@ if [ "$EUID" -ne 0 ]; then
   exit
 fi
 
-message_print "Installing apt dependencies..."
-
-sudo apt update
-sudo apt install -y git git-lfs python-is-python3 python3-pip libxslt1-dev zlib1g-dev libglib2.0-dev libsm6 libgl1-mesa-glx libprotobuf-dev build-essential
-# sudo apt install -y adb # For running the NPU in Android
-
 message_print "Changing to repository..."
 
 # git clone https://github.com/Pelochus/ezrknn-toolkit2.git
