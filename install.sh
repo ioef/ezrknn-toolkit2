@@ -18,10 +18,10 @@ if [ "$EUID" -ne 0 ]; then
   exit
 fi
 
-message_print "Changing to repository..."
+# message_print "Changing to repository..."
 
 # git clone https://github.com/Pelochus/ezrknn-toolkit2.git
-cd ezrknn-toolkit2/
+# cd ezrknn-toolkit2/
 
 message_print "Installing pip dependencies for ARM64..."
 
