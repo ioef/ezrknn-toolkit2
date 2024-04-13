@@ -40,4 +40,4 @@ cd ./rknpu2/examples/rknn_benchmark/
 bash build-linux.sh -a aarch64 -b Release -t rk3588
 # TODO: cp benchmark to /usr/bin/rknn-benchmark
 
-message_print "Done!"
+message_print "Done installing ezrknn-toolkit2!"
