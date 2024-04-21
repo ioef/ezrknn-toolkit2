@@ -37,7 +37,7 @@ cp ./rknpu2/runtime/Linux/librknn_api/include/* /usr/local/include
 message_print "Compiling RKNN Benchmark for RK3588..."
 
 cd ./rknpu2/examples/rknn_benchmark/
-bash build-linux.sh -a aarch64 -b Release -t rk3588
-# TODO: cp benchmark to /usr/bin/rknn-benchmark
+bash build-linux.sh -t rk3588 -a aarch64 -b Release
+cp install/rknn_benchmark_Linux/rknn_benchmark /usr/bin/rknn_benchmark
 
 message_print "Done installing ezrknn-toolkit2!"
