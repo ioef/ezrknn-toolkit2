@@ -25,8 +25,8 @@ fi
 
 message_print "Installing pip dependencies for ARM64..."
 
-pip install ./rknn-toolkit-lite2/packages/rknn_toolkit_lite2-2.0.0b0-cp311-cp311-linux_aarch64.whl
-pip install -r ./rknn-toolkit2/packages/requirements_cp311-2.0.0b0.txt
+pip install --break-system-packages ./rknn-toolkit-lite2/packages/rknn_toolkit_lite2-2.3.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+pip install --break-system-packages -r ./rknn-toolkit2/packages/arm64/arm64_requirements_cp312.txt
 
 message_print "Installing RKNN NPU API..."
 
@@ -41,3 +41,4 @@ bash build-linux.sh -t rk3588 -a aarch64 -b Release
 cp install/rknn_benchmark_Linux/rknn_benchmark /usr/bin/rknn_benchmark
 
 message_print "Done installing ezrknn-toolkit2!"
+
