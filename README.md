@@ -85,7 +85,7 @@ This doesn't use the NPU. Check this issue to actually test NPU usage: https://g
   - RK3566/RK3568 Series
   - RK3562 Series
   - RV1103/RV1106
-  - RV1103B
+  - RV1103B/RV1106B
   - RK2118
 
 Note:
@@ -105,11 +105,15 @@ Note:
 
 # Notes
 - RKNN-Toolkit2 is not compatible with [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit)
-- Currently only support on:
-  - Ubuntu 18.04 python 3.6/3.7
-  - Ubuntu 20.04 python 3.8/3.9
-  - Ubuntu 22.04 python 3.10/3.11
-- Latest version:v2.1.0
+- The supported Python versions are:
+  - Python 3.6
+  - Python 3.7
+  - Python 3.8
+  - Python 3.9
+  - Python 3.10
+  - Python 3.11
+  - Python 3.12
+- Latest version:v2.3.0
 
 # RKNN LLM
 
@@ -119,13 +123,16 @@ https://github.com/airockchip/rknn-llm
 
 # CHANGELOG
 
-## v2.1.0
- - Support RV1103B (Beta)
-- Support RK2118 (Beta)
-- Support Flash Attention (Only RK3562 and RK3576)
-- Improve MatMul API
-- Improve support for int32 and int64
-- Support more operators and operator fusion
+## v2.3.0
+- RKNN-Toolkit2 support ARM64 architecture
+
+- RKNN-Toolkit-Lite2 support installation via pip
+
+- Add support for W4A16 symmetric quantization (RK3576)
+
+- Operator optimization, such as LayerNorm, LSTM, Transpose, MatMul, etc.
+
+    
 
  for older version, please refer [CHANGELOG](CHANGELOG.md)
 
